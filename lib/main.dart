@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hungry_bite/screens/home_screen.dart';
+import 'package:hungry_bite/screens/resturent_screen.dart';
 
 
 void main(){
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(child: HomeScreen()) ,
+        body: Center(child: ResturentScreen()) ,
       ),
     );
   }
