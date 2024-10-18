@@ -6,7 +6,7 @@ Widget bottomNavigationBarIcon({required Icon icon, required String name}) {
     children: [
       icon,
       //const SizedBox(height: 4), 
-      Text(name,style: TextStyle(color: Colors.white,fontSize: 10),),
+      Text(name,style: const TextStyle(color: Colors.white,fontSize: 10),),
     ],
   );
 }

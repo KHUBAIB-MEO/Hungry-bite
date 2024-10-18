@@ -51,7 +51,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                   width: 130,
                                   color: Colors.transparent,
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       Text(
                                         "Delivery",
@@ -72,8 +73,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                   height: 30,
                                   width: 90,
                                   decoration: BoxDecoration(
-                                      color:
-                                          const Color(0xFF000000).withOpacity(0.5),
+                                      color: const Color(0xFF000000)
+                                          .withOpacity(0.5),
                                       borderRadius: const BorderRadius.all(
                                           Radius.circular(10))),
                                   child: Image.asset("assets/images/cycle.png"),
@@ -89,9 +90,10 @@ class _HomeScreenState extends State<HomeScreen> {
                               child: TextField(
                                 decoration: InputDecoration(
                                   hintText: "Search...",
-                                  hintStyle: const TextStyle(color: Colors.white),
-                                  prefixIcon:
-                                      const Icon(Icons.search, color: Colors.white),
+                                  hintStyle:
+                                      const TextStyle(color: Colors.white),
+                                  prefixIcon: const Icon(Icons.search,
+                                      color: Colors.white),
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(
                                         8), // Optional: round the corners
@@ -108,7 +110,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               height: 30,
                               width: 230,
                               child: Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
                                   const Text(
                                     "Categories",
@@ -177,8 +180,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 alignment: Alignment.centerLeft,
                                 child: Text(
                                   "Fastest near you",
-                                  style:
-                                      TextStyle(color: Colors.white, fontSize: 15),
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 15),
                                 ),
                               ),
                             ),
@@ -198,19 +201,47 @@ class _HomeScreenState extends State<HomeScreen> {
                             width: 240,
                             height: 50,
                             decoration: BoxDecoration(
-                              color: Color(0xff000000).withOpacity(0.9),
-                              borderRadius: BorderRadius.all(Radius.circular(20)),
-                              border: Border.all(color: Color(0xffffffff).withOpacity(0.5),width: 1)
-                            ),
+                                color: const Color(0xff000000).withOpacity(0.9),
+                                borderRadius:
+                                    const BorderRadius.all(Radius.circular(20)),
+                                border: Border.all(
+                                    color: const Color(0xffffffff)
+                                        .withOpacity(0.5),
+                                    width: 1)),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
-                                bottomNavigationBarIcon(icon: Icon(Icons.home,color: Colors.white,), name: "Setting"),
-                                bottomNavigationBarIcon(icon: Icon(Icons.search,color: Colors.white,), name: "Browse"),
-                                bottomNavigationBarIcon(icon: Icon(Icons.shopping_cart,color: Colors.white,), name: "Cart"),
-                                bottomNavigationBarIcon(icon: Icon(Icons.list,color: Colors.white,), name: "Orders"),
-                                bottomNavigationBarIcon(icon: Icon(Icons.person,color: Colors.white,), name: "Accounts"),
+                                bottomNavigationBarIcon(
+                                    icon: const Icon(
+                                      Icons.home,
+                                      color: Colors.white,
+                                    ),
+                                    name: "Setting"),
+                                bottomNavigationBarIcon(
+                                    icon: const Icon(
+                                      Icons.search,
+                                      color: Colors.white,
+                                    ),
+                                    name: "Browse"),
+                                bottomNavigationBarIcon(
+                                    icon: const Icon(
+                                      Icons.shopping_cart,
+                                      color: Colors.white,
+                                    ),
+                                    name: "Cart"),
+                                bottomNavigationBarIcon(
+                                    icon: const Icon(
+                                      Icons.list,
+                                      color: Colors.white,
+                                    ),
+                                    name: "Orders"),
+                                bottomNavigationBarIcon(
+                                    icon: const Icon(
+                                      Icons.person,
+                                      color: Colors.white,
+                                    ),
+                                    name: "Accounts"),
                               ],
                             ),
                           ),
